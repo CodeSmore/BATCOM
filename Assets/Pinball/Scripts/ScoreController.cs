@@ -23,4 +23,11 @@ public class ScoreController : MonoBehaviour {
 
 		UpdateScore();
 	}
+
+	void OnDisable () {
+		int addedCurrency = (int)currentScore / 10;
+
+		CurrencyController.AddCurrency(addedCurrency);
+		Debug.Log("saving pool points");
+	}
 }

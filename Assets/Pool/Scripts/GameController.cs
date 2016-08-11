@@ -8,9 +8,11 @@ public class GameController : MonoBehaviour {
 	[SerializeField]
 	private Image indicatorImage = null;
 
+	private BallUIController ballUIController;
+
 	// Use this for initialization
 	void Start () {
-	
+		ballUIController = GameObject.FindObjectOfType<BallUIController>();
 	}
 	
 	// Update is called once per frame
@@ -30,5 +32,18 @@ public class GameController : MonoBehaviour {
 		indicatorImage.color = Color.green;
 
 		return true;
+	}
+
+	public bool AreAllBallsGone () {
+		bool areAllGone = true;
+		GameObject[] pointBalls = ballUIController.GetPointBallObjects();
+
+		foreach (GameObject ball in pointBalls) {
+			if (ball.activeSelf) {
+				areAllGone = false;
+			}
+		}
+
+		return areAllGone;
 	}
 }

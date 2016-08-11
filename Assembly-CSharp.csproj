@@ -66,7 +66,9 @@
      <Compile Include="Assets\Pool\Scripts\PoolScoreController.cs" />
      <Compile Include="Assets\Pool\Scripts\PoolSoundController.cs" />
      <Compile Include="Assets\Pool\Scripts\TouchController.cs" />
+     <Compile Include="Assets\_zMisc\Scripts\CurrencyController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\_zMisc\Scripts\PlayerPrefsManager.cs" />
      <Compile Include="Assets\_zMisc\Scripts\SoundController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

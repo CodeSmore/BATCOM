@@ -12,7 +12,7 @@ public class Shredder : MonoBehaviour {
 
 	void OnTriggerExit2D (Collider2D collider) {
 		if (collider.tag == "Ball") {
-			levelManager.ResetLevel();
+			levelManager.LoadLevel("Home");
 		}
 	}
 }

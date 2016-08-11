@@ -5,14 +5,19 @@ using System.Collections;
 public class PoolScoreController : MonoBehaviour {
 
 	[SerializeField]
-	private float inOrderPointValue = 0, outOfOrderPointValue = 0;
+	private int inOrderPointValue = 0, outOfOrderPointValue = 0;
 	[SerializeField]
 	private Text scoreText = null;
 
-	private float currentScore = 0;
+	private int currentScore = 0;
+
+	private GameController gameController;
+	private LevelManager levelManager;
 
 	// Use this for initialization
 	void Start () {
+		gameController = GameObject.FindObjectOfType<GameController>();
+		levelManager = GameObject.FindObjectOfType<LevelManager>();
 		UpdateScoreText();
 	}
 	
@@ -45,6 +50,11 @@ public class PoolScoreController : MonoBehaviour {
 
 	void UpdateScoreText () {
 		scoreText.text = currentScore.ToString();
+
+		if (gameController.AreAllBallsGone()) {
+			CurrencyController.AddCurrency(currentScore);
+			levelManager.LoadLevel("Home");
+		}
 	}
 
 
