@@ -45,6 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Darts\Scripts\DartController.cs" />
+     <Compile Include="Assets\Darts\Scripts\DartsSoundController.cs" />
      <Compile Include="Assets\Pinball\Scripts\BackgroundSoundsController.cs" />
      <Compile Include="Assets\Pinball\Scripts\Booster.cs" />
      <Compile Include="Assets\Pinball\Scripts\Bumper.cs" />
