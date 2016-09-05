@@ -16,7 +16,7 @@ public class TouchController : MonoBehaviour {
 
 	private bool preparingToFire = false;
 	private GameController gameController;
-	private PoolSoundController poolSoundController;
+	private SoundController soundController;
 
 	private EventSystem eventSystem;
 
@@ -29,7 +29,7 @@ public class TouchController : MonoBehaviour {
 	void Start () {
 		gameController = GameObject.FindObjectOfType<GameController>();
 		cueBallRigidbody2D = cueBall.GetComponent<Rigidbody2D>();
-		poolSoundController = GameObject.FindObjectOfType<PoolSoundController>();
+		soundController = GameObject.FindObjectOfType<SoundController>();
 		eventSystem = GameObject.FindObjectOfType<EventSystem>();
 	}
 	
@@ -121,9 +121,13 @@ public class TouchController : MonoBehaviour {
 			cueStick.SetActive(false);
 
 			// shoot ball
-			cueBallRigidbody2D.AddForce(ballToStickVector * powah);
+			Vector2 shootForce = ballToStickVector * powah;
+			shootForce = new Vector2 (Mathf.Clamp(shootForce.x, -maxForce, maxForce), Mathf.Clamp(shootForce.y, -maxForce, maxForce));
+
+			cueBallRigidbody2D.AddForce(shootForce);
+
 			// play hit sound
-			poolSoundController.PlayStickHitsCueBall();
+			soundController.PlayStickHitsCueBall();
 		}
 	}
 }

@@ -7,13 +7,13 @@ public class Bumper : MonoBehaviour {
 
 	private Animator bumperAnimator;
 
-	private ScoreController scoreController;
+	private PinballScoreController scoreController;
 	private SoundController soundController;
 
 	// Use this for initialization
 	void Start () {
 		bumperAnimator = GetComponent<Animator>();
-		scoreController = GameObject.FindObjectOfType<ScoreController>();
+		scoreController = GameObject.FindObjectOfType<PinballScoreController>();
 		soundController = GameObject.FindObjectOfType<SoundController>();
 	}
 	

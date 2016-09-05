@@ -15,11 +15,14 @@ public class PaddleController : MonoBehaviour {
 	private float flipUpSpeed = 1;
 
 	private PowerZone leftPowerZone, rightPowerZone;
+	private SoundController soundController;
 
 	// Use this for initialization
 	void Start () {
 		leftPowerZone = GameObject.Find("LeftPowerZone").GetComponent<PowerZone>();
 		rightPowerZone = GameObject.Find("RightPowerZone").GetComponent<PowerZone>();
+
+		soundController = GameObject.FindObjectOfType<SoundController>();
 	}
 	
 	// Update is called once per frame
@@ -57,10 +60,18 @@ public class PaddleController : MonoBehaviour {
 
 	public void ToggleLeftPaddleActive () {
 		leftPaddleActive = !leftPaddleActive;
+
+		if (leftPaddleActive) {
+			soundController.PlayPaddlesClip();
+		}
 	}
 
 	public void ToggleRightPaddleActive () {
 		rightPaddleActive = !rightPaddleActive;
+
+		if (rightPaddleActive) {
+			soundController.PlayPaddlesClip();
+		}
 	}
 
 	public void ResetLeftPaddle () {

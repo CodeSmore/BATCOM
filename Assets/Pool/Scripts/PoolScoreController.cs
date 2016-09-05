@@ -14,6 +14,9 @@ public class PoolScoreController : MonoBehaviour {
 	private GameController gameController;
 	private LevelManager levelManager;
 
+	[SerializeField]
+	private GameObject endGameMenu = null;
+
 	// Use this for initialization
 	void Start () {
 		gameController = GameObject.FindObjectOfType<GameController>();
@@ -52,10 +55,12 @@ public class PoolScoreController : MonoBehaviour {
 		scoreText.text = currentScore.ToString();
 
 		if (gameController.AreAllBallsGone()) {
-			CurrencyController.AddCurrency(currentScore);
-			levelManager.LoadLevel("Home");
+			// enable end game menu
+			endGameMenu.SetActive(true);
 		}
 	}
 
-
+	public int GetScore () {
+		return currentScore;
+	}
 }

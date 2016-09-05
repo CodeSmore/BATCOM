@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class ScoreController : MonoBehaviour {
+public class PinballScoreController : MonoBehaviour {
 	private float currentScore = 0; 
 
 	[SerializeField]
@@ -24,10 +24,7 @@ public class ScoreController : MonoBehaviour {
 		UpdateScore();
 	}
 
-	void OnDisable () {
-		int addedCurrency = (int)currentScore / 10;
-
-		CurrencyController.AddCurrency(addedCurrency);
-		Debug.Log("saving pool points");
+	public float GetScore () {
+		return currentScore;
 	}
 }

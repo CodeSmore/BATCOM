@@ -3,16 +3,17 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class Shredder : MonoBehaviour {
-	private LevelManager levelManager;
+	private PinballGameController gameController;
 
 	// Use this for initialization
 	void Start () {
-		levelManager = GameObject.FindObjectOfType<LevelManager>();
+		gameController = GameObject.FindObjectOfType<PinballGameController>();
 	}
 
 	void OnTriggerExit2D (Collider2D collider) {
 		if (collider.tag == "Ball") {
-			levelManager.LoadLevel("Home");
+			Destroy(collider.gameObject);
+			gameController.EndGame();
 		}
 	}
 }

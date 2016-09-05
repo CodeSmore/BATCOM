@@ -7,13 +7,13 @@ public class RolloverLight : MonoBehaviour {
 	private SpriteRenderer spriteRenderer;
 	private Color startColor;
 
-	private ScoreController scoreController;
+	private PinballScoreController scoreController;
 
 	// Use this for initialization
 	void Start () {
 		spriteRenderer = GetComponent<SpriteRenderer>();
 		startColor = spriteRenderer.color;
-		scoreController = GameObject.FindObjectOfType<ScoreController>();
+		scoreController = GameObject.FindObjectOfType<PinballScoreController>();
 	}
 	
 	void OnTriggerEnter2D (Collider2D collider) {

@@ -33,12 +33,15 @@ public class CurrencyController : MonoBehaviour {
 	public static void AddCurrency (int addedCurrency) {
 		currentCurrency += addedCurrency;
 		PlayerPrefsManager.SaveCurrency(currentCurrency);
-		Debug.Log("adding score"); 
 	}
 
 	public static void SubtractCurrency (int subtractedCurrency) {
 		currentCurrency -= subtractedCurrency;
 		PlayerPrefsManager.SaveCurrency(currentCurrency);
+	}
+
+	public static int GetCurrency () {
+		return currentCurrency;
 	}
 
 }

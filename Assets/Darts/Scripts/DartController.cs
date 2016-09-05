@@ -8,14 +8,27 @@ public class DartController : MonoBehaviour {
 	private GameObject dartInstance;
 
 	private SpriteRenderer touchIndicatorSpriteRenderer;
-	private DartsSoundController soundController;
+	private SoundController soundController;
+	private DartsGameController gameController;
 
-	private bool controlDartPosition = false;
+	private bool controlDartPosition = false, throwEnabled = true;
+
+	[SerializeField]
+	private GameObject pauseMenu = null;
+
+	[SerializeField]
+	private float airTime = 5f;
+
+	private bool lerpTime = false;
+	private bool throwing = false;
+	private bool enableRelease = false;
+	private Vector3 landingPoint;
 
 	// Use this for initialization
 	void Start () {
 		touchIndicatorSpriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-		soundController = GameObject.FindObjectOfType<DartsSoundController>();
+		soundController = GameObject.FindObjectOfType<SoundController>();
+		gameController = GameObject.FindObjectOfType<DartsGameController>();
 	}
 	
 	// Update is called once per frame
@@ -25,45 +38,67 @@ public class DartController : MonoBehaviour {
 		}
 	}
 
-	void OnMouseDown () {
-		touchIndicatorSpriteRenderer.enabled = false;
-		dartInstance = Instantiate(dartGameObject) as GameObject;
+	void FixedUpdate () {
+		if (lerpTime) {
+			dartInstance.transform.position = Vector3.Lerp(dartInstance.transform.position, landingPoint, Time.deltaTime * airTime);
 
-		controlDartPosition = true;
+			if (dartInstance.transform.position.y + .1 > landingPoint.y) {
+				EndThrow();
+			}
+		} 
+	}
+
+	void OnMouseDown () {
+		// stops bug of throwing while in the middle of throw x.x
+		if (throwing == false && !pauseMenu.activeSelf) {
+			touchIndicatorSpriteRenderer.enabled = false;
+			dartInstance = Instantiate(dartGameObject) as GameObject;
+
+			controlDartPosition = true;
+
+			enableRelease = true;
+		}
 	}
 
 	void OnMouseUp () {
-		touchIndicatorSpriteRenderer.enabled = true;
+		if (enableRelease) {
+			ThrowDart ();
 
-		// throw dart
-		ThrowDart ();
+			controlDartPosition = false;
 
-		if (dartInstance != null) {
-			Destroy(dartInstance);
+			enableRelease = false;
 		}
-
-		controlDartPosition = false;
 	}
 
 	void MoveDart () {
 		// move dart instance based on mouse position
-		Debug.Log("moving dart");
 		dartInstance.transform.position = new Vector3 (Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Mathf.Clamp(Camera.main.ScreenToWorldPoint(Input.mousePosition).y, -4f, -0.4150944f), dartInstance.transform.position.z);
 	}
 
 	void ThrowDart () {
+		throwing = true;
 		float landingConstant = .2f;
-
-		Vector3 landingPoint;
 
 		landingPoint = new Vector3 (dartInstance.transform.position.x, -.5f - dartInstance.transform.position.y * 1.5f + landingConstant, 0f);
 
-		Instantiate(landPoint, landingPoint, Quaternion.identity);
+		lerpTime = true;
 
-		// lowest landing = .81
-		// Highest landing = 6
+		// triggers animation to make dart smaller as it travels
+		Animator dartAnimator = dartInstance.GetComponent<Animator>();
+		dartAnimator.SetTrigger("ThrowTrigger");
 
+		// plays "whoosh" sound
 		soundController.PlayDartThrowClip();
+	}
+
+	void EndThrow () {
+		lerpTime = false;
+		Instantiate(landPoint, landingPoint, Quaternion.identity);
 		soundController.PlayDartHitClip();
+		touchIndicatorSpriteRenderer.enabled = true;
+		Destroy(dartInstance);
+		gameController.RemoveThrow();
+
+		throwing = false;
 	}
 }

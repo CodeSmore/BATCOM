@@ -10,7 +10,7 @@ public class PinBall : MonoBehaviour {
 	}
 
 	public bool IsBallMoving () {
-		if (ballRigidbody.velocity != Vector2.zero) {
+		if (ballRigidbody && ballRigidbody.velocity != Vector2.zero) {
 			return true;
 		}
 

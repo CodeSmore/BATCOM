@@ -10,13 +10,13 @@ public class Booster : MonoBehaviour {
 	private float boosterForce = 0, pointValue = 0;
 
 	private Rigidbody2D ballRigidbody;
-	private ScoreController scoreController;
+	private PinballScoreController scoreController;
 	private SoundController soundController;
 
 	// Use this for initialization
 	void Start () {
 		ballRigidbody = GameObject.FindGameObjectWithTag("Ball").GetComponent<Rigidbody2D>();
-		scoreController = GameObject.FindObjectOfType<ScoreController>();
+		scoreController = GameObject.FindObjectOfType<PinballScoreController>();
 		soundController = GameObject.FindObjectOfType<SoundController>();
 	}
 

@@ -15,7 +15,7 @@ public class Ball : MonoBehaviour {
 	private int spritePlaceHolder = 0;
 
 	private Rigidbody2D ballRigidbody;
-	private PoolSoundController poolSoundController;
+	private SoundController soundController;
 	private SpriteRenderer currentSprite;
 
 	private float switchSpriteTimer = 0;
@@ -23,7 +23,7 @@ public class Ball : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		ballRigidbody = GetComponent<Rigidbody2D>();
-		poolSoundController = GameObject.FindObjectOfType<PoolSoundController>();
+		soundController = GameObject.FindObjectOfType<SoundController>();
 		currentSprite = GetComponent<SpriteRenderer>();
 	}
 	
@@ -40,7 +40,7 @@ public class Ball : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D collision) {
 		if (collision.gameObject.tag == "Point Pool Ball" || collision.gameObject.tag == "Cue Ball") {
-			poolSoundController.PlayOneBallHit();
+			soundController.PlayOneBallHit();
 		}
 	}
 

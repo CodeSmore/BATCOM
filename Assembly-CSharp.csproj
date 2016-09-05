@@ -45,8 +45,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Coin Golf\Scripts\BoundaryController.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\CoinController.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\CoinGameController.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\CoinGolfEndGameMenu.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\CoinGolfScoreController.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\HitDetection.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\Temp\CoinSoundController.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\TransparencyController.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\WinCircle.cs" />
      <Compile Include="Assets\Darts\Scripts\DartController.cs" />
-     <Compile Include="Assets\Darts\Scripts\DartsSoundController.cs" />
+     <Compile Include="Assets\Darts\Scripts\DartsEndGameMenu.cs" />
+     <Compile Include="Assets\Darts\Scripts\DartsGameController.cs" />
+     <Compile Include="Assets\Darts\Scripts\DartsScoreController.cs" />
+     <Compile Include="Assets\Darts\Scripts\LandPoint.cs" />
+     <Compile Include="Assets\Darts\Scripts\PointArea.cs" />
      <Compile Include="Assets\Pinball\Scripts\BackgroundSoundsController.cs" />
      <Compile Include="Assets\Pinball\Scripts\Booster.cs" />
      <Compile Include="Assets\Pinball\Scripts\Bumper.cs" />
@@ -55,9 +68,13 @@
      <Compile Include="Assets\Pinball\Scripts\LauncherDoor.cs" />
      <Compile Include="Assets\Pinball\Scripts\PaddleController.cs" />
      <Compile Include="Assets\Pinball\Scripts\PinBall.cs" />
+     <Compile Include="Assets\Pinball\Scripts\PinballEndGameMenu.cs" />
+     <Compile Include="Assets\Pinball\Scripts\PinballGameController.cs" />
+     <Compile Include="Assets\Pinball\Scripts\PinballPauseController.cs" />
+     <Compile Include="Assets\Pinball\Scripts\PinballScoreController.cs" />
+     <Compile Include="Assets\Pinball\Scripts\PinballStyleController.cs" />
      <Compile Include="Assets\Pinball\Scripts\PowerZone.cs" />
      <Compile Include="Assets\Pinball\Scripts\RolloverLight.cs" />
-     <Compile Include="Assets\Pinball\Scripts\ScoreController.cs" />
      <Compile Include="Assets\Pinball\Scripts\Shield.cs" />
      <Compile Include="Assets\Pinball\Scripts\Shredder.cs" />
      <Compile Include="Assets\Pool\Scripts\Ball.cs" />
@@ -65,13 +82,17 @@
      <Compile Include="Assets\Pool\Scripts\GameController.cs" />
      <Compile Include="Assets\Pool\Scripts\OrderController.cs" />
      <Compile Include="Assets\Pool\Scripts\Pocket.cs" />
+     <Compile Include="Assets\Pool\Scripts\PoolEndGameMenu.cs" />
      <Compile Include="Assets\Pool\Scripts\PoolScoreController.cs" />
-     <Compile Include="Assets\Pool\Scripts\PoolSoundController.cs" />
      <Compile Include="Assets\Pool\Scripts\TouchController.cs" />
+     <Compile Include="Assets\_zMisc\Scripts\BarBackgroundSoundController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\CurrencyController.cs" />
+     <Compile Include="Assets\_zMisc\Scripts\GameSelectController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\_zMisc\Scripts\PauseController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\PlayerPrefsManager.cs" />
      <Compile Include="Assets\_zMisc\Scripts\SoundController.cs" />
+     <Compile Include="Assets\_zMisc\Scripts\StoreController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

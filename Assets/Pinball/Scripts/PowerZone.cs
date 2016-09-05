@@ -33,7 +33,6 @@ public class PowerZone : MonoBehaviour {
 
 	public void LaunchBall () {
 		if (powerZoneActive) {
-			Debug.Log("launch");
 			// apply force to ball
 			ball.GetComponent<Rigidbody2D>().AddForce(new Vector2 (0, launchForce));
 		}

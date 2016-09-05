@@ -16,7 +16,6 @@ public class Shield : MonoBehaviour {
 
 		currentHealth = maxHealth;
 		halfHealth = Mathf.CeilToInt((float)maxHealth / 2);
-		Debug.Log(halfHealth);
 	}
 	
 	// Update is called once per frame

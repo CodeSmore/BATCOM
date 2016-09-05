@@ -9,14 +9,14 @@ public class Pocket : MonoBehaviour {
 	private BallUIController ballUIController;
 	private OrderController orderController;
 	private PoolScoreController poolScoreController;
-	private PoolSoundController poolSoundController;
+	private SoundController soundController;
 
 	// Use this for initialization
 	void Start () {
 		ballUIController = GameObject.FindObjectOfType<BallUIController>();
 		orderController = GameObject.FindObjectOfType<OrderController>();
 		poolScoreController = GameObject.FindObjectOfType<PoolScoreController>();
-		poolSoundController = GameObject.FindObjectOfType<PoolSoundController>();
+		soundController = GameObject.FindObjectOfType<SoundController>();
 	}
 
 	void OnTriggerEnter2D (Collider2D collider) {
@@ -24,7 +24,7 @@ public class Pocket : MonoBehaviour {
 
 		if (collider.gameObject.tag == "Point Pool Ball") {
 			collider.gameObject.SetActive(false);
-			poolSoundController.PlayBallInHole();
+			soundController.PlayBallInHole();
 
 			// score point!!!
 			if (orderController.CheckIfInOrder(collider.gameObject, ballUIController.GetPointBallObjects())) {

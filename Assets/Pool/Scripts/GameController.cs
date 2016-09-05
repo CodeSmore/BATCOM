@@ -8,6 +8,9 @@ public class GameController : MonoBehaviour {
 	[SerializeField]
 	private Image indicatorImage = null;
 
+	[SerializeField]
+	private GameObject touchController = null;
+
 	private BallUIController ballUIController;
 
 	// Use this for initialization
@@ -44,6 +47,15 @@ public class GameController : MonoBehaviour {
 			}
 		}
 
+		if (areAllGone) {
+			PrepareEnding();
+		}
+
 		return areAllGone;
+	}
+
+	void PrepareEnding () {
+		// disable touch controller
+		touchController.SetActive(false);
 	}
 }
