@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DialogCollection> 
+	<Dialogs>
+		<Dialog name="bartender">
+			<Text>"Name&apos;s Bartender. People call me Bartender."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"You can get any drink in the Multiverse, &apos;slong as you know the name."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"There&apos;s a pool go'n to guess my real name. Talk t&apos;Telken. He should be around here somewhere."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"No jostle&apos;n the pinball machine!"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"If yer gonna start a fight, start it outside!"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"We don’t serve their kind here...you know...Morons."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"No blasters! No blasters!"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"I&apos;ll tell ya a secret about my name…"::Whispers:: "It&apos;s Bartender. Dunno why nobody believes me!"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Stay awhile, and listen...to me old stories about growing up in the Bar." ::Bartender drones on for hours.::</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"If yer gonna chew bubblegum and kick butt...don&apos;t leave the gum under the golf table."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"I dunno how the Bar changes the game&apos;s themes. Just gimme yer BR and the bar does the rest."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Go to sketchygames.net. Some guy named Peter paid me to say that."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"You break the pool cues yer gonna be sorry!"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"The bar&apos;s not responsible for any damages caused by the darts taking off on their own and stabb&apos;n ya in the eye."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"I hear you can get Yeagled around here for an ice cream bar. Whatever that means."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Do. Not. Look. Under. The. Pool. Table."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"The MC was in here earlier look&apos;n for his bomb. Said something &apos;bout give&apos;n it back to the Covenant."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Y&apos;just missed Shepard. He&apos;s got his omni-whatsis all twisted over some kinda machine-gods."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Y&apos;just missed Shepard. He’s got his omni-whatsis all twisted over some kinda machine-gods."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"If yer look&apos;n for good stories, go talk to Sir Terry. Don&apos;t ask him to sing the Hedghog song. Children play this game."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"If ya see a man with a wizard hat on that says “Wizzard” with two Zs, tell&apos;im he owes me BR!"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Ook, ook. Er I mean, ye want some peanuts?"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Bounty Hunters...we serve their kind here."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"No smoke&apos;n in here...less yer wizard arrive&apos;n precisely when ya mean too. Then pipe weed only. And I like the smoke rings!"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"What? We aint got no “Preciouses” around here. You want the Bar at the left of the multiverse."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"One winged angels? That must be rough. Flying around in circles all the time."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"I aint never seen no little white guys with a red ball on their heads. Never. Kupo."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>Thwip thwip!</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Mmrgrrllggrrglll! Sorry, got something stuck in me throat."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"&apos;Your Princess is in another Castle&apos; is a favorite &apos;round here with plumbers and turtles."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Have you not heard? It was my understanding that everyone had heard." ::The rest of the patrons all cry out in terror as Bartender starts singing Surfin Bird::</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"He is vengeance. He is the night. He is the one leaving guano in the bathroom. I KNOW IT&apos;S YOU WAYNE!"</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"Don&apos;t panic. If ya need a towel, get one out of the box. Never go anywhere without yer towel."</Text>
+		</Dialog>
+
+		<Dialog name="bartender">
+			<Text>"This big blue box appeared and some trench coated guy stepped out, yelled “Allons-y!” then they vanished. Takes all kinds &apos;round here."</Text>
+		</Dialog>
+	</Dialogs>
+</DialogCollection>

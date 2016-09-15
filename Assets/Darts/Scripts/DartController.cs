@@ -11,7 +11,7 @@ public class DartController : MonoBehaviour {
 	private SoundController soundController;
 	private DartsGameController gameController;
 
-	private bool controlDartPosition = false, throwEnabled = true;
+	private bool controlDartPosition = false;
 
 	[SerializeField]
 	private GameObject pauseMenu = null;

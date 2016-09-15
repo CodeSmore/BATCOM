@@ -1,12 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Coin Golf\Scripts\BoundaryController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ObstaclePlacementController.cs">
     <Files>
-      <File FileName="Assets\Coin Golf\Scripts\CoinGameController.cs" Line="15" Column="39" />
-      <File FileName="Assets\Coin Golf\Scripts\WinCircle.cs" Line="29" Column="5" />
-      <File FileName="Assets\Coin Golf\Scripts\CoinController.cs" Line="111" Column="14" />
-      <File FileName="Assets\Coin Golf\Scripts\CoinGolfScoreController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Coin Golf\Scripts\BoundaryController.cs" Line="13" Column="59" />
+      <File FileName="Assets\Coin Golf\Scripts\CoinGolfEndGameMenu.cs" Line="35" Column="24" />
+      <File FileName="Assets\Darts\Scripts\DartController.cs" Line="91" Column="1" />
+      <File FileName="Assets\Darts\Scripts\DartsEndGameMenu.cs" Line="34" Column="23" />
+      <File FileName="Assets\Pinball\Scripts\PinballGameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pinball\Scripts\PinballEndGameMenu.cs" Line="34" Column="24" />
+      <File FileName="Assets\ObstaclePlacementController.cs" Line="54" Column="55" />
+      <File FileName="Assets\Coin Golf\Scripts\HitDetection.cs" Line="1" Column="1" />
+      <File FileName="Assets\Coin Golf\Scripts\WinCircle.cs" Line="35" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

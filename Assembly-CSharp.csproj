@@ -60,6 +60,7 @@
      <Compile Include="Assets\Darts\Scripts\DartsScoreController.cs" />
      <Compile Include="Assets\Darts\Scripts\LandPoint.cs" />
      <Compile Include="Assets\Darts\Scripts\PointArea.cs" />
+     <Compile Include="Assets\ObstaclePlacementController.cs" />
      <Compile Include="Assets\Pinball\Scripts\BackgroundSoundsController.cs" />
      <Compile Include="Assets\Pinball\Scripts\Booster.cs" />
      <Compile Include="Assets\Pinball\Scripts\Bumper.cs" />
@@ -85,7 +86,11 @@
      <Compile Include="Assets\Pool\Scripts\PoolEndGameMenu.cs" />
      <Compile Include="Assets\Pool\Scripts\PoolScoreController.cs" />
      <Compile Include="Assets\Pool\Scripts\TouchController.cs" />
+     <Compile Include="Assets\Resources\Dialog.cs" />
+     <Compile Include="Assets\Resources\DialogContainer.cs" />
+     <Compile Include="Assets\Resources\DialogLoader.cs" />
      <Compile Include="Assets\_zMisc\Scripts\BarBackgroundSoundController.cs" />
+     <Compile Include="Assets\_zMisc\Scripts\BarDialogController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\CurrencyController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\GameSelectController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\LevelManager.cs" />
@@ -93,6 +98,7 @@
      <Compile Include="Assets\_zMisc\Scripts\PlayerPrefsManager.cs" />
      <Compile Include="Assets\_zMisc\Scripts\SoundController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\StoreController.cs" />
+     <None Include="Assets\Resources\Dialogs.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

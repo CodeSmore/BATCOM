@@ -27,7 +27,7 @@ public class CurrencyController : MonoBehaviour {
 	}
 
 	void UpdateCurrencyText () {
-		currencyText.text = "$" + currentCurrency.ToString();
+		currencyText.text = currentCurrency.ToString();
 	}
 
 	public static void AddCurrency (int addedCurrency) {

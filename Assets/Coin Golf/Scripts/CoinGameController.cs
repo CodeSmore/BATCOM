@@ -38,7 +38,7 @@ public class CoinGameController : MonoBehaviour {
 		flicksRemaining--;  
 
 		if (flicksRemaining == 0) {
-			beginEnd = true;
+			EndGame();
 		}
 	}
 
@@ -54,5 +54,11 @@ public class CoinGameController : MonoBehaviour {
 		foreach (Image flickImage in flickImages) {
 			flickImage.gameObject.SetActive(true);
 		}
+	}
+
+	public void EndGame () {
+		beginEnd = true;
+
+		// remove ability to flick coin
 	}
 }

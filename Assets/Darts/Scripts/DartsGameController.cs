@@ -17,12 +17,8 @@ public class DartsGameController : MonoBehaviour {
 	private bool endGame;
 	private float endGameCount;
 
-	private LevelManager levelManager;
-
 	// Use this for initialization
 	void Start () {
-		levelManager = GameObject.FindObjectOfType<LevelManager>();
-
 		hitsLeft = numbHitsPerGame;
 	}
 	

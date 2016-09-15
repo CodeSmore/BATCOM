@@ -11,28 +11,48 @@ public class CoinController : MonoBehaviour {
 	private float fingerStartTime = 0.0f;
 	private Vector2 fingerStartPos = Vector2.zero;
 
-	private bool isSwipe = false;
+	private bool isSwipe = false, inCircle = false, coinWasLaunched = false;
 	private float minSwipeDist = 50.0f;
 	private float maxSwipeTime = 0.5f;
 
-	private Vector2 origPos;
+	// used when removing flick since sometimes velocity is registered at zero even when coinWasLaunched is set to true
+	private float timeSinceStopAfterLaunch = 0;
+
+	private Vector3 origPos;
 
 	private EventSystem eventSystem;
 	private Rigidbody2D coinRigidbody;
 	private CoinGameController gameController;
+	private CoinGolfScoreController scoreController;
 
 	// Use this for initialization
 	void Start () {
 		eventSystem = GameObject.FindObjectOfType<EventSystem>();
 		coinRigidbody = GetComponent<Rigidbody2D>();
 		gameController = GameObject.FindObjectOfType<CoinGameController>();
+		scoreController = GameObject.FindObjectOfType<CoinGolfScoreController>();
 
 		origPos = transform.position;
+	}
+
+	void OnTriggerEnter2D (Collider2D collider) {
+		if (collider.tag == "Win Circle") {
+			inCircle = true;
+		}
+	}
+
+	void OnTriggerExit2D (Collider2D collider) {
+		if (collider.tag == "Win Circle") {
+			inCircle = false;
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		Debug.Log(timeSinceStopAfterLaunch);
+
 		HandleVelocity();
+		HandleFlickRemoval();
 
 		if (eventSystem.currentSelectedGameObject == null && coinRigidbody.velocity == Vector2.zero && gameController.GetFlicksRemaining() > 0) {
 			if (Input.touchCount > 0) {
@@ -57,10 +77,9 @@ public class CoinController : MonoBehaviour {
 
 							if (isSwipe && gestureTime < maxSwipeTime && gestureDist > minSwipeDist) {
 								Vector2 direction = touch.position - fingerStartPos;
-								Vector2 swipeType = Vector2.zero;
 
 								coinRigidbody.AddForce(forceCoefficient * direction / gestureTime);
-								gameController.RemoveFlick();
+								coinWasLaunched = true;
 							}
 							break;
 
@@ -87,12 +106,10 @@ public class CoinController : MonoBehaviour {
 
 			if (isSwipe && mGestureTime < maxSwipeTime && mGestureDist > minSwipeDist) {
 				Vector2 direction = (Vector2)Input.mousePosition - fingerStartPos;
-				Vector2 swipeType = Vector2.zero;
-
 				Vector2 force = forceCoefficient * direction / mGestureTime;
 		
-				coinRigidbody.AddForce(force);
-				gameController.RemoveFlick();
+				coinRigidbody.AddForce(force);	
+				coinWasLaunched = true;		
 			}
 		}
 	}
@@ -114,5 +131,23 @@ public class CoinController : MonoBehaviour {
 	public void ResetCoin () {
 		transform.position = origPos;
 		coinRigidbody.velocity = Vector2.zero;
+		inCircle = false;
+		coinWasLaunched = false;
+	}
+
+	public void HandleFlickRemoval () {
+		// if coin stops (when labeled as moving) and coin isn't in circle, remove flick
+		if (coinWasLaunched && !IsCoinMoving()) {
+			timeSinceStopAfterLaunch += Time.deltaTime;
+		}
+
+		if (coinWasLaunched && !IsCoinMoving() && !inCircle && timeSinceStopAfterLaunch > .1f) {
+			gameController.RemoveFlick();
+			coinWasLaunched = false;
+			timeSinceStopAfterLaunch = 0;
+
+			//remove round points
+			scoreController.DecreaseRoundScore();
+		}
 	}
 }

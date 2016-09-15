@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: fe16160721ecafb40be1ff8f2a5ac8e4
+timeCreated: 1473795197
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CoinGolf (2)_0
+    21300002: CoinGolf (2)_1
+    21300004: CoinGolf (2)_2
+    21300006: CoinGolf (2)_3
+    21300008: CoinGolf (2)_4
+    21300010: CoinGolf (2)_5
+    21300012: CoinGolf (2)_6
+    21300014: CoinGolf (2)_7
+    21300016: CoinGolf (2)_8
+    21300018: CoinGolf (2)_9
+    21300020: CoinGolf (2)_10
+    21300022: CoinGolf (2)_11
+    21300024: CoinGolf (2)_12
+    21300026: CoinGolf (2)_13
+    21300028: CoinGolf (2)_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CoinGolf (2)_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 836
+        width: 48
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 66.5}
+        - {x: -24, y: 64.5}
+        - {x: -24, y: 36.5}
+        - {x: -20, y: 14.5}
+        - {x: 10, y: -66.5}
+        - {x: 24, y: -66.5}
+        - {x: 24, y: -29.5}
+        - {x: 16, y: 41.5}
+        - {x: 6, y: 66.5}
+    - name: CoinGolf (2)_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 839
+        width: 35
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 66.5}
+        - {x: -17.5, y: 16.5}
+        - {x: 6.5, y: -66.5}
+        - {x: 17.5, y: -66.5}
+        - {x: 17.5, y: 30.5}
+        - {x: 11.5, y: 66.5}
+    - name: CoinGolf (2)_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 839
+        width: 51
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 63.5}
+        - {x: -25.5, y: -29.5}
+        - {x: -25.5, y: -63.5}
+        - {x: -0.5, y: -63.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 25.5, y: 63.5}
+    - name: CoinGolf (2)_3
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 836
+        width: 180
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81, y: 51}
+        - {x: -90, y: 50}
+        - {x: -90, y: -51}
+        - {x: 85, y: -51}
+        - {x: 90, y: -50}
+        - {x: 90, y: 41}
+        - {x: 81, y: 51}
+    - name: CoinGolf (2)_4
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 920
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 26}
+        - {x: -19.5, y: -25}
+        - {x: -17.5, y: -26}
+        - {x: 19.5, y: -26}
+        - {x: 19.5, y: 26}
+    - name: CoinGolf (2)_5
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 883
+        width: 111
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: 37}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -37}
+        - {x: 35.5, y: -37}
+        - {x: 55.5, y: -33}
+        - {x: 55.5, y: 5}
+        - {x: 30.5, y: 37}
+    - name: CoinGolf (2)_6
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 875
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: CoinGolf (2)_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 664
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 62.5}
+        - {x: -62.5, y: 26.5}
+        - {x: -62.5, y: -57.5}
+        - {x: -48.5, y: -62.5}
+        - {x: 27.5, y: -62.5}
+        - {x: 62.5, y: -32.5}
+        - {x: 62.5, y: 61.5}
+        - {x: 58.5, y: 62.5}
+    - name: CoinGolf (2)_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 667
+        width: 96
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 61}
+        - {x: -41, y: 61}
+        - {x: -48, y: 24}
+        - {x: -48, y: -52}
+        - {x: -38, y: -61}
+        - {x: 42, y: -61}
+        - {x: 48, y: -55}
+        - {x: 48, y: 10}
+        - {x: 44, y: 60}
+    - name: CoinGolf (2)_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 664
+        width: 102
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 62.5}
+        - {x: -50, y: 62.5}
+        - {x: -51, y: 58.5}
+        - {x: -51, y: -44.5}
+        - {x: -45, y: -62.5}
+        - {x: 42, y: -62.5}
+        - {x: 51, y: -53.5}
+        - {x: 51, y: -8.5}
+        - {x: 43, y: 57.5}
+    - name: CoinGolf (2)_10
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 677
+        width: 180
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90, y: 51}
+        - {x: -90, y: -31}
+        - {x: -64, y: -51}
+        - {x: 79, y: -51}
+        - {x: 90, y: -18}
+        - {x: 90, y: 51}
+    - name: CoinGolf (2)_11
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 684
+        width: 46
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 76}
+        - {x: -23, y: 15}
+        - {x: -23, y: -76}
+        - {x: 23, y: -76}
+        - {x: 23, y: 24}
+        - {x: 11, y: 76}
+    - name: CoinGolf (2)_12
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 684
+        width: 47
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 76}
+        - {x: -13.5, y: 76}
+        - {x: -23.5, y: 15}
+        - {x: -23.5, y: -76}
+        - {x: 22.5, y: -76}
+        - {x: 23.5, y: -75}
+        - {x: 23.5, y: 21}
+    - name: CoinGolf (2)_13
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 684
+        width: 46
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 76}
+        - {x: -23, y: 14}
+        - {x: -23, y: -76}
+        - {x: 23, y: -76}
+        - {x: 23, y: 19}
+        - {x: 11, y: 76}
+    - name: CoinGolf (2)_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 25
+        width: 1022
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -475, y: -274}
+        - {x: -475, y: -264}
+        - {x: 475, y: -264}
+        - {x: 475, y: -282}
+        - {x: 473, y: -284}
+        - {x: 473, y: -300}
+        - {x: 471, y: -302}
+        - {x: 471, y: -310}
+        - {x: 503, y: -310}
+        - {x: 503, y: -302}
+        - {x: 505, y: -300}
+        - {x: 507, y: -292}
+        - {x: 507, y: -270}
+        - {x: 509, y: -268}
+        - {x: 509, y: -252}
+        - {x: 511, y: -250}
+        - {x: 511, y: -211}
+        - {x: 507, y: -203}
+        - {x: 493, y: -176}
+        - {x: 489, y: -165}
+        - {x: 485, y: -157}
+        - {x: 475, y: -138}
+        - {x: 473, y: -132}
+        - {x: 469, y: -126}
+        - {x: 467, y: -121}
+        - {x: 463, y: -113}
+        - {x: 453, y: -94}
+        - {x: 451, y: -88}
+        - {x: 449, y: -83}
+        - {x: 445, y: -75}
+        - {x: 415, y: -16}
+        - {x: 413, y: -10}
+        - {x: 409, y: -2}
+        - {x: 407, y: 3}
+        - {x: 403, y: 11}
+        - {x: 371, y: 74}
+        - {x: 369, y: 80}
+        - {x: 367, y: 85}
+        - {x: 363, y: 93}
+        - {x: 351, y: 116}
+        - {x: 349, y: 122}
+        - {x: 345, y: 128}
+        - {x: 343, y: 133}
+        - {x: 339, y: 141}
+        - {x: 329, y: 160}
+        - {x: 327, y: 166}
+        - {x: 325, y: 171}
+        - {x: 321, y: 179}
+        - {x: 289, y: 242}
+        - {x: 287, y: 248}
+        - {x: 285, y: 253}
+        - {x: 281, y: 261}
+        - {x: 269, y: 284}
+        - {x: 267, y: 290}
+        - {x: 263, y: 296}
+        - {x: 261, y: 301}
+        - {x: 257, y: 309}
+        - {x: 256, y: 310}
+        - {x: -249, y: 310}
+        - {x: -251, y: 308}
+        - {x: -363, y: 84}
+        - {x: -409, y: -10}
+        - {x: -507, y: -206}
+        - {x: -509, y: -212}
+        - {x: -511, y: -215}
+        - {x: -511, y: -254}
+        - {x: -509, y: -262}
+        - {x: -507, y: -264}
+        - {x: -507, y: -278}
+        - {x: -505, y: -280}
+        - {x: -505, y: -294}
+        - {x: -503, y: -296}
+        - {x: -503, y: -308}
+        - {x: -501, y: -310}
+        - {x: -471, y: -310}
+        - {x: -471, y: -292}
+        - {x: -473, y: -290}
+        - {x: -473, y: -276}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

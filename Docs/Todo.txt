@@ -1,6 +1,39 @@
 TODO
 
--Meeting w/ Steven
+-Space Dragons
+	- add highscore list
+	x tap to launch
+		x include bar that shows power build up
+			x reduce it at a rate so the player must tap fast consistently
+	x change touch to tap
+	x add background to tap meter
+	x adjust tapper degredation
+	x remove god mode
 
--Pool
-	-create shot guide (stretch dashed line)
+-Cat Grinder
+	- reskin (need art) (zombie running, throwing brains/ remove the blades and blade sounds / trump running, throwing hair
+	- create menu to pick skin (wait for art)
+	- adjust mechanics to allow longer play and higher scores
+
+-Batcom
+	x revise build for square table
+	x create dialog box
+	x randomize coin golf placements
+	x at bar, tapping a second time doesn't close it, just brings up a new one
+	x change coin golf scoring
+	x end coin golf when hit off table
+	x randomizes bartender script after first intro (each time you enter screen)
+	x check missing "'"
+	x add quotes to script (bartender)
+	x coin stacks float
+	x randomize at end of each game
+	x add BR symbol
+	x add new dart bord with numbers
+	- pool balls rolling in wrong direction
+		-verify if all or not (which ones?)
+		-check initial rotations
+		-try to identify cause (side of table, walls hit, balls bounce and therefore move backwards??)
+
+-Extra
+	- Read about algorithms (it's important)
+	- apply to 3 jobs

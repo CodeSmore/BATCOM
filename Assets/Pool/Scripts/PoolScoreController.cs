@@ -12,7 +12,6 @@ public class PoolScoreController : MonoBehaviour {
 	private int currentScore = 0;
 
 	private GameController gameController;
-	private LevelManager levelManager;
 
 	[SerializeField]
 	private GameObject endGameMenu = null;
@@ -20,7 +19,6 @@ public class PoolScoreController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		gameController = GameObject.FindObjectOfType<GameController>();
-		levelManager = GameObject.FindObjectOfType<LevelManager>();
 		UpdateScoreText();
 	}
 	

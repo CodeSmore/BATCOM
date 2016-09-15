@@ -29,9 +29,9 @@ public class CoinGolfEndGameMenu : MonoBehaviour {
 
 		int currencyEarned = Mathf.FloorToInt(scoreController.GetScore() / 10);
 
-		currencyEarnedText.text = "Earned: $" + currencyEarned.ToString();
+		currencyEarnedText.text = currencyEarned.ToString();
 		PlayerPrefsManager.AddCurrency(currencyEarned);
 
-		totalCurrency.text = "New Total:\n$" + PlayerPrefsManager.GetCurrency().ToString();
+		totalCurrency.text = PlayerPrefsManager.GetCurrency().ToString();
 	}
 }
