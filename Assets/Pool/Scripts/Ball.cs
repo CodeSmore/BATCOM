@@ -20,6 +20,11 @@ public class Ball : MonoBehaviour {
 
 	private float switchSpriteTimer = 0;
 
+
+	// TODO disable as it's temp and for testing
+	[SerializeField]
+	private GameObject directionIndicator = null;
+
 	// Use this for initialization
 	void Start () {
 		ballRigidbody = GetComponent<Rigidbody2D>();
@@ -76,5 +81,11 @@ public class Ball : MonoBehaviour {
 		lookRotation.y = 0.0f;
 
 		transform.rotation = lookRotation;
+
+		if (directionIndicator) {
+			directionIndicator.transform.localPosition = new Vector3 (ballRigidbody.velocity.normalized.x / 20f, ballRigidbody.velocity.normalized.y / 20f, directionIndicator.transform.localPosition.z);
+		}
+
+		transform.up = ballRigidbody.velocity.normalized;
 	}
 }

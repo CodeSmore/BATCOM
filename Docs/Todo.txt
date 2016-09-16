@@ -16,19 +16,8 @@ TODO
 	- adjust mechanics to allow longer play and higher scores
 
 -Batcom
-	x revise build for square table
-	x create dialog box
-	x randomize coin golf placements
-	x at bar, tapping a second time doesn't close it, just brings up a new one
-	x change coin golf scoring
-	x end coin golf when hit off table
-	x randomizes bartender script after first intro (each time you enter screen)
-	x check missing "'"
-	x add quotes to script (bartender)
-	x coin stacks float
-	x randomize at end of each game
-	x add BR symbol
-	x add new dart bord with numbers
+	x create indicator to show which theme in store is currently active
+	- make so new dialogs do not show up when store windows are active (perhaps deactivate the whole system when it's up)
 	- pool balls rolling in wrong direction
 		-verify if all or not (which ones?)
 		-check initial rotations

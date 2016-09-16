@@ -51,6 +51,7 @@
      <Compile Include="Assets\Coin Golf\Scripts\CoinGolfEndGameMenu.cs" />
      <Compile Include="Assets\Coin Golf\Scripts\CoinGolfScoreController.cs" />
      <Compile Include="Assets\Coin Golf\Scripts\HitDetection.cs" />
+     <Compile Include="Assets\Coin Golf\Scripts\ObstaclePlacementController.cs" />
      <Compile Include="Assets\Coin Golf\Scripts\Temp\CoinSoundController.cs" />
      <Compile Include="Assets\Coin Golf\Scripts\TransparencyController.cs" />
      <Compile Include="Assets\Coin Golf\Scripts\WinCircle.cs" />
@@ -60,7 +61,6 @@
      <Compile Include="Assets\Darts\Scripts\DartsScoreController.cs" />
      <Compile Include="Assets\Darts\Scripts\LandPoint.cs" />
      <Compile Include="Assets\Darts\Scripts\PointArea.cs" />
-     <Compile Include="Assets\ObstaclePlacementController.cs" />
      <Compile Include="Assets\Pinball\Scripts\BackgroundSoundsController.cs" />
      <Compile Include="Assets\Pinball\Scripts\Booster.cs" />
      <Compile Include="Assets\Pinball\Scripts\Bumper.cs" />
@@ -85,6 +85,7 @@
      <Compile Include="Assets\Pool\Scripts\Pocket.cs" />
      <Compile Include="Assets\Pool\Scripts\PoolEndGameMenu.cs" />
      <Compile Include="Assets\Pool\Scripts\PoolScoreController.cs" />
+     <Compile Include="Assets\Pool\Scripts\PoolThemeController.cs" />
      <Compile Include="Assets\Pool\Scripts\TouchController.cs" />
      <Compile Include="Assets\Resources\Dialog.cs" />
      <Compile Include="Assets\Resources\DialogContainer.cs" />
@@ -98,6 +99,7 @@
      <Compile Include="Assets\_zMisc\Scripts\PlayerPrefsManager.cs" />
      <Compile Include="Assets\_zMisc\Scripts\SoundController.cs" />
      <Compile Include="Assets\_zMisc\Scripts\StoreController.cs" />
+     <Compile Include="Assets\_zMisc\Scripts\zzzPlayerPrefDestroyer.cs" />
      <None Include="Assets\Resources\Dialogs.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

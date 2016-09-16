@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: e310d9d63ed09f34c9698bd304942918
+timeCreated: 1474065182
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PoolBalls90DegreesClockwise_0
+    21300002: PoolBalls90DegreesClockwise_1
+    21300004: PoolBalls90DegreesClockwise_2
+    21300006: PoolBalls90DegreesClockwise_3
+    21300008: PoolBalls90DegreesClockwise_4
+    21300010: PoolBalls90DegreesClockwise_5
+    21300012: PoolBalls90DegreesClockwise_6
+    21300014: PoolBalls90DegreesClockwise_7
+    21300016: PoolBalls90DegreesClockwise_8
+    21300018: PoolBalls90DegreesClockwise_9
+    21300020: PoolBalls90DegreesClockwise_10
+    21300022: PoolBalls90DegreesClockwise_11
+    21300024: PoolBalls90DegreesClockwise_12
+    21300026: PoolBalls90DegreesClockwise_13
+    21300028: PoolBalls90DegreesClockwise_14
+    21300030: PoolBalls90DegreesClockwise_15
+    21300032: PoolBalls90DegreesClockwise_16
+    21300034: PoolBalls90DegreesClockwise_17
+    21300036: PoolBalls90DegreesClockwise_18
+    21300038: PoolBalls90DegreesClockwise_19
+    21300040: PoolBalls90DegreesClockwise_20
+    21300042: PoolBalls90DegreesClockwise_21
+    21300044: PoolBalls90DegreesClockwise_22
+    21300046: PoolBalls90DegreesClockwise_23
+    21300048: PoolBalls90DegreesClockwise_24
+    21300050: PoolBalls90DegreesClockwise_25
+    21300052: PoolBalls90DegreesClockwise_26
+    21300054: PoolBalls90DegreesClockwise_27
+    21300056: PoolBalls90DegreesClockwise_28
+    21300058: PoolBalls90DegreesClockwise_29
+    21300060: PoolBalls90DegreesClockwise_30
+    21300062: PoolBalls90DegreesClockwise_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 2200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PoolBalls90DegreesClockwise_0
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1494
+        width: 396
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.65625, y: 80.10626}
+        - {x: -80.65625, y: 37.106262}
+        - {x: -80.65625, y: -42.893738}
+        - {x: -54.65625, y: -67.89374}
+        - {x: -30.65625, y: -78.89374}
+        - {x: 43.34375, y: -78.89374}
+        - {x: 82.34375, y: -37.893738}
+        - {x: 82.34375, y: 67.10626}
+        - {x: 63.34375, y: 80.10626}
+    - name: PoolBalls90DegreesClockwise_1
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1499
+        width: 397
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.484375, y: 79.65314}
+        - {x: -81.484375, y: 57.653137}
+        - {x: -81.484375, y: -39.346863}
+        - {x: -64.484375, y: -78.34686}
+        - {x: 40.515625, y: -78.34686}
+        - {x: 81.515625, y: -46.346863}
+        - {x: 81.515625, y: 44.653137}
+        - {x: 62.515625, y: 79.65314}
+    - name: PoolBalls90DegreesClockwise_2
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1506
+        width: 396
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.815613, y: 80.01874}
+        - {x: -49.815613, y: 76.01874}
+        - {x: -80.81561, y: 40.018738}
+        - {x: -80.81561, y: -44.981262}
+        - {x: -77.81561, y: -57.981262}
+        - {x: -32.815613, y: -78.98126}
+        - {x: 53.184387, y: -78.98126}
+        - {x: 82.18439, y: -62.981262}
+        - {x: 82.18439, y: 57.018738}
+        - {x: 43.184387, y: 80.01874}
+    - name: PoolBalls90DegreesClockwise_3
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1516
+        width: 396
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.9718, y: 80.11249}
+        - {x: -80.9718, y: 44.112488}
+        - {x: -80.9718, y: -36.887512}
+        - {x: -63.9718, y: -75.88751}
+        - {x: -45.9718, y: -78.88751}
+        - {x: 58.0282, y: -78.88751}
+        - {x: 82.0282, y: -50.887512}
+        - {x: 82.0282, y: 35.112488}
+        - {x: 63.0282, y: 80.11249}
+    - name: PoolBalls90DegreesClockwise_4
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 1518
+        width: 396
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.712402, y: 80.931274}
+        - {x: -80.7124, y: 54.931274}
+        - {x: -80.7124, y: -41.068726}
+        - {x: -39.712402, y: -80.068726}
+        - {x: 37.287598, y: -80.068726}
+        - {x: 82.2876, y: -49.068726}
+        - {x: 82.2876, y: 41.931274}
+        - {x: 46.287598, y: 80.931274}
+    - name: PoolBalls90DegreesClockwise_5
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 1508
+        width: 395
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.318848, y: 79.837524}
+        - {x: -42.681152, y: 79.837524}
+        - {x: -80.68115, y: 68.837524}
+        - {x: -80.68115, y: -41.162476}
+        - {x: -45.681152, y: -79.162476}
+        - {x: 31.318848, y: -79.162476}
+        - {x: 80.31885, y: -53.162476}
+        - {x: 82.31885, y: -46.162476}
+        - {x: 82.31885, y: 51.837524}
+    - name: PoolBalls90DegreesClockwise_6
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 1511
+        width: 395
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.696777, y: 80.06561}
+        - {x: -80.69678, y: 61.065613}
+        - {x: -80.69678, y: -39.934387}
+        - {x: -44.696777, y: -78.93439}
+        - {x: 49.303223, y: -78.93439}
+        - {x: 82.30322, y: -36.934387}
+        - {x: 82.30322, y: 49.065613}
+        - {x: 66.30322, y: 80.06561}
+    - name: PoolBalls90DegreesClockwise_7
+      rect:
+        serializedVersion: 2
+        x: 4362
+        y: 1515
+        width: 396
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.806152, y: 79.203125}
+        - {x: -80.80615, y: 58.203125}
+        - {x: -80.80615, y: -71.796875}
+        - {x: -63.806152, y: -78.796875}
+        - {x: 63.193848, y: -78.796875}
+        - {x: 82.19385, y: -47.796875}
+        - {x: 82.19385, y: 63.203125}
+        - {x: 42.193848, y: 79.203125}
+    - name: PoolBalls90DegreesClockwise_8
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1056
+        width: 397
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.200012, y: 79.80002}
+        - {x: -81.20001, y: 75.80002}
+        - {x: -81.20001, y: -69.19998}
+        - {x: -32.200012, y: -79.19998}
+        - {x: 53.799988, y: -79.19998}
+        - {x: 81.79999, y: -73.19998}
+        - {x: 81.79999, y: 70.80002}
+        - {x: 39.799988, y: 79.80002}
+    - name: PoolBalls90DegreesClockwise_9
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1059
+        width: 395
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.70935, y: 80.52814}
+        - {x: -80.70935, y: 41.528137}
+        - {x: -80.70935, y: -51.471863}
+        - {x: -39.70935, y: -79.47186}
+        - {x: 67.29065, y: -79.47186}
+        - {x: 81.29065, y: -47.471863}
+        - {x: 81.29065, y: 56.528137}
+        - {x: 49.29065, y: 80.52814}
+    - name: PoolBalls90DegreesClockwise_10
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 1069
+        width: 397
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.640625, y: 80.12189}
+        - {x: -74.359375, y: 80.12189}
+        - {x: -81.359375, y: 46.121887}
+        - {x: -81.359375, y: -50.878113}
+        - {x: -54.359375, y: -73.87811}
+        - {x: -27.359375, y: -78.87811}
+        - {x: 73.640625, y: -78.87811}
+        - {x: 81.640625, y: -48.878113}
+        - {x: 81.640625, y: 54.121887}
+    - name: PoolBalls90DegreesClockwise_11
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 1077
+        width: 397
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.984375, y: -47.60312}
+        - {x: 82.984375, y: -41.60312}
+        - {x: 82.984375, y: 47.39688}
+        - {x: 58.984375, y: 74.39688}
+        - {x: 34.984375, y: 81.39688}
+        - {x: -35.015625, y: 81.39688}
+        - {x: -81.015625, y: 52.39688}
+        - {x: -81.015625, y: -35.60312}
+        - {x: -40.015625, y: -79.60312}
+        - {x: 10.984375, y: -79.60312}
+        - {x: 25.984375, y: -77.60312}
+        - {x: 44.984375, y: -68.60312}
+        - {x: 50.984375, y: -64.60312}
+        - {x: 53.984375, y: -61.60312}
+    - name: PoolBalls90DegreesClockwise_12
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 1081
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.834473, y: 80.03439}
+        - {x: -54.165527, y: 80.03439}
+        - {x: -81.16553, y: 32.034393}
+        - {x: -81.16553, y: -12.965607}
+        - {x: -77.16553, y: -27.965607}
+        - {x: -74.16553, y: -39.965607}
+        - {x: -44.165527, y: -69.96561}
+        - {x: -32.165527, y: -78.96561}
+        - {x: 43.834473, y: -78.96561}
+        - {x: 82.83447, y: -40.965607}
+        - {x: 82.83447, y: 36.034393}
+        - {x: 78.83447, y: 54.034393}
+    - name: PoolBalls90DegreesClockwise_13
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 1071
+        width: 397
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.134277, y: 79.94064}
+        - {x: -76.13428, y: 62.940643}
+        - {x: -81.13428, y: 39.940643}
+        - {x: -81.13428, y: -54.059357}
+        - {x: -59.134277, y: -79.05936}
+        - {x: 40.865723, y: -79.05936}
+        - {x: 82.86572, y: -61.059357}
+        - {x: 82.86572, y: 42.940643}
+        - {x: 46.865723, y: 79.94064}
+    - name: PoolBalls90DegreesClockwise_14
+      rect:
+        serializedVersion: 2
+        x: 3951
+        y: 1074
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.440674, y: 71.16876}
+        - {x: 43.440674, y: 80.16876}
+        - {x: -44.559326, y: 80.16876}
+        - {x: -81.559326, y: 47.168762}
+        - {x: -81.559326, y: -39.831238}
+        - {x: -76.559326, y: -54.831238}
+        - {x: -50.559326, y: -71.83124}
+        - {x: -23.559326, y: -78.83124}
+        - {x: 63.440674, y: -78.83124}
+        - {x: 82.440674, y: -41.831238}
+        - {x: 82.440674, y: 51.168762}
+    - name: PoolBalls90DegreesClockwise_15
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 1078
+        width: 397
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.740723, y: 72.806274}
+        - {x: 35.740723, y: 79.806274}
+        - {x: -38.259277, y: 79.806274}
+        - {x: -81.25928, y: 58.806274}
+        - {x: -81.25928, y: -56.193726}
+        - {x: -45.259277, y: -75.193726}
+        - {x: -26.259277, y: -79.193726}
+        - {x: 63.740723, y: -79.193726}
+        - {x: 82.74072, y: -36.193726}
+        - {x: 82.74072, y: 44.806274}
+    - name: PoolBalls90DegreesClockwise_16
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 612
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.9281, y: 80.037506}
+        - {x: -81.9281, y: 45.037506}
+        - {x: -81.9281, y: -42.962494}
+        - {x: -41.9281, y: -78.962494}
+        - {x: 51.0719, y: -78.962494}
+        - {x: 82.0719, y: -63.962494}
+        - {x: 82.0719, y: 56.037506}
+        - {x: 35.0719, y: 80.037506}
+    - name: PoolBalls90DegreesClockwise_17
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 614
+        width: 396
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.4375, y: 80.35626}
+        - {x: -81.4375, y: 70.35626}
+        - {x: -81.4375, y: -58.643738}
+        - {x: -68.4375, y: -77.64374}
+        - {x: -53.4375, y: -79.64374}
+        - {x: 63.5625, y: -79.64374}
+        - {x: 81.5625, y: -67.64374}
+        - {x: 81.5625, y: 62.356262}
+        - {x: 66.5625, y: 80.35626}
+    - name: PoolBalls90DegreesClockwise_18
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 624
+        width: 398
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.087463, y: 78.45001}
+        - {x: -81.08746, y: 24.450012}
+        - {x: -81.08746, y: -40.549988}
+        - {x: -72.08746, y: -58.549988}
+        - {x: -39.087463, y: -81.54999}
+        - {x: 36.912537, y: -81.54999}
+        - {x: 82.91254, y: -65.54999}
+        - {x: 82.91254, y: 39.450012}
+        - {x: 53.912537, y: 78.45001}
+      - - {x: 1.9125366, y: 80.45001}
+        - {x: 1.9125366, y: 82.45001}
+        - {x: -3.0874634, y: 82.45001}
+        - {x: -1.0874634, y: 79.45001}
+    - name: PoolBalls90DegreesClockwise_19
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 634
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.243774, y: 80.54376}
+        - {x: -81.243774, y: 51.543762}
+        - {x: -81.243774, y: -30.456238}
+        - {x: -75.243774, y: -62.456238}
+        - {x: -50.243774, y: -79.45624}
+        - {x: 37.756226, y: -79.45624}
+        - {x: 82.756226, y: -61.456238}
+        - {x: 82.756226, y: 48.543762}
+        - {x: 70.756226, y: 80.54376}
+    - name: PoolBalls90DegreesClockwise_20
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 636
+        width: 397
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.484375, y: 79.86252}
+        - {x: -81.484375, y: 46.86252}
+        - {x: -81.484375, y: -41.13748}
+        - {x: -42.484375, y: -79.13748}
+        - {x: 40.515625, y: -79.13748}
+        - {x: 81.515625, y: -64.13748}
+        - {x: 81.515625, y: 60.86252}
+        - {x: 38.515625, y: 79.86252}
+    - name: PoolBalls90DegreesClockwise_21
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 627
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.36243, y: 80.17813}
+        - {x: -81.36243, y: 46.17813}
+        - {x: -81.36243, y: -57.82187}
+        - {x: -55.362427, y: -75.82187}
+        - {x: -37.362427, y: -78.82187}
+        - {x: 58.637573, y: -78.82187}
+        - {x: 82.63757, y: -66.82187}
+        - {x: 82.63757, y: 61.17813}
+        - {x: 41.637573, y: 80.17813}
+    - name: PoolBalls90DegreesClockwise_22
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 629
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.37805, y: -34.003113}
+        - {x: -45.37805, y: -79.00311}
+        - {x: 48.62195, y: -79.00311}
+        - {x: 82.62195, y: -66.00311}
+        - {x: 82.62195, y: 66.99689}
+        - {x: 79.62195, y: 79.99689}
+        - {x: -64.37805, y: 79.99689}
+        - {x: -81.37805, y: 38.996887}
+    - name: PoolBalls90DegreesClockwise_23
+      rect:
+        serializedVersion: 2
+        x: 4366
+        y: 631
+        width: 396
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.8313, y: 80.31564}
+        - {x: -81.1687, y: 80.31564}
+        - {x: -81.1687, y: -76.68436}
+        - {x: -73.1687, y: -79.68436}
+        - {x: 60.8313, y: -79.68436}
+        - {x: 81.8313, y: -47.684357}
+        - {x: 81.8313, y: 40.315643}
+        - {x: 78.8313, y: 57.315643}
+    - name: PoolBalls90DegreesClockwise_24
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 150
+        width: 397
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.4281, y: 79.90625}
+        - {x: -81.4281, y: 61.90625}
+        - {x: -81.4281, y: -41.09375}
+        - {x: -42.4281, y: -79.09375}
+        - {x: 49.5719, y: -79.09375}
+        - {x: 81.5719, y: -37.09375}
+        - {x: 81.5719, y: 45.90625}
+        - {x: 54.5719, y: 79.90625}
+    - name: PoolBalls90DegreesClockwise_25
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 155
+        width: 396
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.4375, y: 79.453125}
+        - {x: -81.4375, y: 39.453125}
+        - {x: -81.4375, y: -42.546875}
+        - {x: -53.4375, y: -72.546875}
+        - {x: -49.4375, y: -78.546875}
+        - {x: 52.5625, y: -78.546875}
+        - {x: 81.5625, y: -62.546875}
+        - {x: 81.5625, y: 41.453125}
+        - {x: 44.5625, y: 79.453125}
+    - name: PoolBalls90DegreesClockwise_26
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 162
+        width: 397
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.087463, y: 79.81875}
+        - {x: -69.08746, y: 58.81875}
+        - {x: -81.08746, y: 36.81875}
+        - {x: -81.08746, y: -38.18125}
+        - {x: -47.087463, y: -79.18125}
+        - {x: 42.912537, y: -79.18125}
+        - {x: 56.912537, y: -73.18125}
+        - {x: 82.91254, y: -53.18125}
+        - {x: 82.91254, y: 71.81875}
+        - {x: 44.912537, y: 79.81875}
+    - name: PoolBalls90DegreesClockwise_27
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 175
+        width: 397
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.756226, y: 79.640625}
+        - {x: -46.243774, y: 79.640625}
+        - {x: -81.243774, y: 56.640625}
+        - {x: -81.243774, y: -50.359375}
+        - {x: -55.243774, y: -78.359375}
+        - {x: 61.756226, y: -78.359375}
+        - {x: 82.756226, y: -41.359375}
+        - {x: 82.756226, y: 44.640625}
+        - {x: 80.756226, y: 62.640625}
+    - name: PoolBalls90DegreesClockwise_28
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 122
+        width: 396
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.0749512, y: -88.556244}
+        - {x: -2.0749512, y: -90.556244}
+        - {x: 3.9250488, y: -90.556244}
+        - {x: 4.925049, y: -89.556244}
+        - {x: 3.9250488, y: -86.556244}
+        - {x: -1.0749512, y: -86.556244}
+      - - {x: -30.074951, y: 92.443756}
+        - {x: -81.07495, y: 68.443756}
+        - {x: -81.07495, y: -47.556244}
+        - {x: -47.07495, y: -69.556244}
+        - {x: 23.925049, y: -69.556244}
+        - {x: 59.92505, y: -61.556244}
+        - {x: 81.92505, y: -45.556244}
+        - {x: 81.92505, y: 66.443756}
+        - {x: 73.92505, y: 92.443756}
+    - name: PoolBalls90DegreesClockwise_29
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 165
+        width: 397
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.637573, y: 80.046875}
+        - {x: -42.362427, y: 80.046875}
+        - {x: -81.36243, y: 43.046875}
+        - {x: -81.36243, y: -42.953125}
+        - {x: -51.362427, y: -78.953125}
+        - {x: 67.63757, y: -78.953125}
+        - {x: 82.63757, y: -39.953125}
+        - {x: 82.63757, y: 52.046875}
+        - {x: 53.637573, y: 76.046875}
+    - name: PoolBalls90DegreesClockwise_30
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 169
+        width: 397
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.53125, y: 51.18438}
+        - {x: 41.53125, y: 72.18438}
+        - {x: 27.53125, y: 79.18438}
+        - {x: -44.46875, y: 79.18438}
+        - {x: -81.46875, y: 58.18438}
+        - {x: -81.46875, y: -39.81562}
+        - {x: -67.46875, y: -78.81562}
+        - {x: 28.53125, y: -78.81562}
+        - {x: 58.53125, y: -67.81562}
+        - {x: 81.53125, y: -28.81562}
+        - {x: 81.53125, y: 25.18438}
+    - name: PoolBalls90DegreesClockwise_31
+      rect:
+        serializedVersion: 2
+        x: 4366
+        y: 172
+        width: 396
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.8313, y: 79.4125}
+        - {x: -35.1687, y: 79.4125}
+        - {x: -76.1687, y: 63.4125}
+        - {x: -81.1687, y: 39.4125}
+        - {x: -81.1687, y: -48.5875}
+        - {x: -40.1687, y: -78.5875}
+        - {x: 39.8313, y: -78.5875}
+        - {x: 81.8313, y: -43.5875}
+        - {x: 81.8313, y: 47.4125}
+        - {x: 79.8313, y: 55.4125}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

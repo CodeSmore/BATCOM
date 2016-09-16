@@ -10,11 +10,6 @@ public class PinballStyleController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		backgroundImage.sprite = backgroundSprites[PlayerPrefsManager.GetPinballBackground()];
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		backgroundImage.sprite = backgroundSprites[PlayerPrefsManager.GetPinballTheme()];
 	}
 }

@@ -19,6 +19,8 @@ public class BarDialogController : MonoBehaviour {
 	public const string path = "dialogs";
 	DialogContainer dc;
 
+	public static bool dialogEnabled = true;
+
 	void Start () {
 		dc = DialogContainer.Load(path);
 
@@ -29,7 +31,7 @@ public class BarDialogController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (startTimer) {
-			if (dialogTimer >= dialogCancelTime) {
+			if (!dialogEnabled || dialogTimer >= dialogCancelTime) {
 				RemoveDialogBox();
 			}
 
@@ -38,7 +40,9 @@ public class BarDialogController : MonoBehaviour {
 	}
 
 	void OnMouseDown () {
-		DisplayDialogBox();
+		if (dialogEnabled) {
+			DisplayDialogBox();
+		}
 	}
 
 	void DisplayDialogBox () {
@@ -68,12 +72,10 @@ public class BarDialogController : MonoBehaviour {
 		}
 
 		firstDialog = false;
+	}
 
-//		dialogIndex++;
-//
-//		if (dialogIndex >= dc.dialogs.Count) {
-//			dialogIndex = 0;
-//		}
-
+	// used to diable dialog when in store menu
+	public static void SetDialogEnabled (bool newStatus) {
+		dialogEnabled = newStatus;
 	}
 }

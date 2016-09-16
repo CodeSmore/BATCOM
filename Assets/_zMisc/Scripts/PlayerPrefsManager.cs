@@ -4,8 +4,11 @@ using System.Collections;
 public class PlayerPrefsManager : MonoBehaviour {
 
 	private const string CURRENCY_KEY = "currency";
-	private const string PINBALL_CURRENT_BACKGROUND_KEY = "pinball_current_background";
+	private const string PINBALL_CURRENT_THEME_KEY = "pinball_current_theme";
+	private const string POOL_CURRENT_THEME_KEY = "pool_current_theme";
+
 	private const string PINBALL_AQUA_BACKGROUND_PURCHASED_KEY = "pinball_aqua_background_purchased";
+	private const string POOL_SCIFI_THEME_PURCHASED_KEY = "pool_scifi_theme_purchased";
 
 	private const string SOUND_FX_VOLUME_KEY = "sound_fx_volume";
 	private const string MUSIC_VOLUME_KEY = "music_volume";
@@ -34,21 +37,40 @@ public class PlayerPrefsManager : MonoBehaviour {
 		PlayerPrefs.SetInt(CURRENCY_KEY, newTotal);
 	}
 
-	public static int GetPinballBackground () {
-		return PlayerPrefs.GetInt(PINBALL_CURRENT_BACKGROUND_KEY, 0);
+	public static int GetPinballTheme () {
+		return PlayerPrefs.GetInt(PINBALL_CURRENT_THEME_KEY, 0);
 	}
 
-	public static void SetPinballBackground (int background) {
-		PlayerPrefs.SetInt(PINBALL_CURRENT_BACKGROUND_KEY, background);
+	public static int GetPoolTheme () {
+		return PlayerPrefs.GetInt(POOL_CURRENT_THEME_KEY, 0);
 	}
 
-	public static int GetIsAquaBackgroundPurchased () {
+	public static void SetPinballTheme (int theme) {
+		PlayerPrefs.SetInt(PINBALL_CURRENT_THEME_KEY, theme);
+	}
+
+	public static void SetPoolTheme (int theme) {
+		PlayerPrefs.SetInt(POOL_CURRENT_THEME_KEY, theme);
+	}
+
+	public static int GetIsAquaThemePurchased () {
 		return PlayerPrefs.GetInt(PINBALL_AQUA_BACKGROUND_PURCHASED_KEY, 0);
 	}
 
-	public static void UnloackAquaBackground () {
+	public static int GetIsPoolSciFiThemePurchased () {
+		return PlayerPrefs.GetInt(POOL_SCIFI_THEME_PURCHASED_KEY, 0);
+	}
+
+	public static void UnlockAquaTheme () {
 		PlayerPrefs.SetInt(PINBALL_AQUA_BACKGROUND_PURCHASED_KEY, 1);
 	}
+
+	public static void UnlockPoolSciFiTheme () {
+		PlayerPrefs.SetInt(POOL_SCIFI_THEME_PURCHASED_KEY, 1);
+	}
+
+
+
 
 	public static void SetSoundFXVolume (float newVolume) {
 		PlayerPrefs.SetFloat(SOUND_FX_VOLUME_KEY, newVolume); 
