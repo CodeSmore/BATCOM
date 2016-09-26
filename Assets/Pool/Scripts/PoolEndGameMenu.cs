@@ -28,9 +28,9 @@ public class PoolEndGameMenu : MonoBehaviour {
 
 		int currencyEarned = Mathf.FloorToInt(scoreController.GetScore());
 
-		currencyEarnedText.text = "Earned: $" + currencyEarned.ToString();
+		currencyEarnedText.text = currencyEarned.ToString();
 		PlayerPrefsManager.AddCurrency(currencyEarned);
 
-		totalCurrency.text = "New Total:\n$" + PlayerPrefsManager.GetCurrency().ToString();
+		totalCurrency.text = PlayerPrefsManager.GetCurrency().ToString();
 	}
 }

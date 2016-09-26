@@ -26,7 +26,7 @@ public class CurrencyController : MonoBehaviour {
 		PlayerPrefsManager.SaveCurrency(currentCurrency);
 	}
 
-	void UpdateCurrencyText () {
+	public void UpdateCurrencyText () {
 		currencyText.text = currentCurrency.ToString();
 	}
 

@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: 3ab29705fd1661a42b12a6387b2c3dad
+timeCreated: 1474750841
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PoolBallsNeonSciFi2_90degreesCounterClockwise_0
+    21300002: PoolBallsNeonSciFi2_90degreesCounterClockwise_1
+    21300004: PoolBallsNeonSciFi2_90degreesCounterClockwise_2
+    21300006: PoolBallsNeonSciFi2_90degreesCounterClockwise_3
+    21300008: PoolBallsNeonSciFi2_90degreesCounterClockwise_4
+    21300010: PoolBallsNeonSciFi2_90degreesCounterClockwise_5
+    21300012: PoolBallsNeonSciFi2_90degreesCounterClockwise_6
+    21300014: PoolBallsNeonSciFi2_90degreesCounterClockwise_7
+    21300016: PoolBallsNeonSciFi2_90degreesCounterClockwise_8
+    21300018: PoolBallsNeonSciFi2_90degreesCounterClockwise_9
+    21300020: PoolBallsNeonSciFi2_90degreesCounterClockwise_10
+    21300022: PoolBallsNeonSciFi2_90degreesCounterClockwise_11
+    21300024: PoolBallsNeonSciFi2_90degreesCounterClockwise_12
+    21300026: PoolBallsNeonSciFi2_90degreesCounterClockwise_13
+    21300028: PoolBallsNeonSciFi2_90degreesCounterClockwise_14
+    21300030: PoolBallsNeonSciFi2_90degreesCounterClockwise_15
+    21300032: PoolBallsNeonSciFi2_90degreesCounterClockwise_16
+    21300034: PoolBallsNeonSciFi2_90degreesCounterClockwise_17
+    21300036: PoolBallsNeonSciFi2_90degreesCounterClockwise_18
+    21300038: PoolBallsNeonSciFi2_90degreesCounterClockwise_19
+    21300040: PoolBallsNeonSciFi2_90degreesCounterClockwise_20
+    21300042: PoolBallsNeonSciFi2_90degreesCounterClockwise_21
+    21300044: PoolBallsNeonSciFi2_90degreesCounterClockwise_22
+    21300046: PoolBallsNeonSciFi2_90degreesCounterClockwise_23
+    21300048: PoolBallsNeonSciFi2_90degreesCounterClockwise_24
+    21300050: PoolBallsNeonSciFi2_90degreesCounterClockwise_25
+    21300052: PoolBallsNeonSciFi2_90degreesCounterClockwise_26
+    21300054: PoolBallsNeonSciFi2_90degreesCounterClockwise_27
+    21300056: PoolBallsNeonSciFi2_90degreesCounterClockwise_28
+    21300058: PoolBallsNeonSciFi2_90degreesCounterClockwise_29
+    21300060: PoolBallsNeonSciFi2_90degreesCounterClockwise_30
+    21300062: PoolBallsNeonSciFi2_90degreesCounterClockwise_31
+    21300064: PoolBallsNeonSciFi2_90degreesCounterClockwise_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 2200
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_0
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1794
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1362
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1364
+        width: 398
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_3
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1367
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_4
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1353
+        width: 397
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_5
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1359
+        width: 398
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_6
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1372
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_7
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1379
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_8
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 1384
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 900
+        width: 400
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_10
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 903
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_11
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 905
+        width: 398
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_12
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 895
+        width: 398
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_13
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 898
+        width: 399
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_14
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 897
+        width: 398
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_15
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 909
+        width: 400
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_16
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 922
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 456
+        width: 397
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 458
+        width: 398
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_19
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 461
+        width: 397
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_20
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 451
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_21
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 453
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_22
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 465
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_23
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 473
+        width: 400
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_24
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 478
+        width: 398
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 18
+        width: 397
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_26
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 21
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_27
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 26
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_28
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 10
+        width: 398
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_29
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 16
+        width: 397
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_30
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 28
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_31
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 35
+        width: 398
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoolBallsNeonSciFi2_90degreesCounterClockwise_32
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 40
+        width: 398
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

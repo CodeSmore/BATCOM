@@ -23,6 +23,9 @@ public class PinballPauseController : MonoBehaviour {
 	private Rigidbody2D ballRigidbody;
 	private Vector2 ballVelocityOnPause;
 
+	// added b/c OnSliderChange is occuring BEFORE awake AND time.timesincelevelloaded resets!!!!!!! REDICULOUS!
+	private float enableSliderTimer = 0;
+
 	void Awake () {
 		if (GameObject.Find("BackgroundMusic")) {
 			musicSource = GameObject.Find("BackgroundMusic").GetComponent<AudioSource>();
@@ -38,8 +41,12 @@ public class PinballPauseController : MonoBehaviour {
 	}
 
 	void OnEnable () {
+		enableSliderTimer = 0;
 		UpdateSliders();
+	}
 
+	void OnDisable () {
+		enableSliderTimer = 0;
 	}
 
 	void Update () {
@@ -58,6 +65,8 @@ public class PinballPauseController : MonoBehaviour {
 				timer = timeToCountDown;
 			}
 		}
+
+		enableSliderTimer += Time.deltaTime;
 	}
 
 	public void OpenMenu () {
@@ -97,11 +106,14 @@ public class PinballPauseController : MonoBehaviour {
 	}
 
 	public void SaveSliderValues () {
-		PlayerPrefsManager.SetSoundFXVolume(soundFXSlider.value);
-		PlayerPrefsManager.SetMusicVolume(musicSlider.value);
+		if (enableSliderTimer > .1f) {
+			PlayerPrefsManager.SetSoundFXVolume(soundFXSlider.value);
+			PlayerPrefsManager.SetMusicVolume(musicSlider.value);
 
-		soundFXSource.volume = soundFXSlider.value;
-		musicSource.volume = musicSlider.value;
-		pinballSource.volume = soundFXSlider.value;
+			soundFXSource.volume = soundFXSlider.value;
+			musicSource.volume = musicSlider.value;
+			pinballSource.volume = soundFXSlider.value;
+		}
+
 	}
 }

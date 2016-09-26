@@ -32,7 +32,7 @@ public class LandPoint : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D collider) {
 		if (collider.tag == "DartLandSlot") {
-			int targetScore = collider.GetComponentInParent<PointArea>().GetPointValue();
+			int targetScore = collider.GetComponent<RandPointArea>().GetPointValue();
 
 			if (targetScore > score) {
 				score = targetScore;

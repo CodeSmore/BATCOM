@@ -44,7 +44,6 @@ public class SoundController : MonoBehaviour {
 	// Pinball
 	
 	public void PlayBallShooterClip () {
-		Debug.Log(source);
 		source.PlayOneShot(ballShooterClip);
 	}
 
@@ -61,7 +60,6 @@ public class SoundController : MonoBehaviour {
 	}
 
 	public void PlayPaddlesClip () {
-		Debug.Log(source);
 		source.PlayOneShot(paddlesClip);
 	}
 

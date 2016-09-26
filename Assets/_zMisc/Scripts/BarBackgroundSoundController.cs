@@ -16,8 +16,6 @@ public class BarBackgroundSoundController : MonoBehaviour {
 			Destroy(gameObject);
 		}
 
-		if (SceneManager.GetActiveScene().buildIndex == 0) {
-			gameObject.GetComponent<AudioSource>().volume = PlayerPrefsManager.GetMusicVolume();
-		}
+		gameObject.GetComponent<AudioSource>().volume = PlayerPrefsManager.GetMusicVolume();
 	}
 }
